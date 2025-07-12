@@ -1,0 +1,104 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: rgb(161, 161, 57);
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* About Section */
+#about, #skills, #projects, #contact {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Skills List */
+#skills ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+/* Projects */
+.project-card {
+  background: #eee;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.project-card img {
+  width:50%;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+form input, form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
